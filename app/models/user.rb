@@ -8,5 +8,7 @@ class User < ApplicationRecord
   has_many :post_images, dependent: :destroy
   # user<postimage で関連付ける
   has_many :post_comments, dependent: :destroy
+  # user<favorite　で関連付ける
+  has_many :favorites, dependent: :destroy
 
 end
