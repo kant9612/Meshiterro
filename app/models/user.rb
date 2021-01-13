@@ -10,5 +10,5 @@ class User < ApplicationRecord
   has_many :post_comments, dependent: :destroy
   # user<favorite　で関連付ける
   has_many :favorites, dependent: :destroy
-
+  attachment :profile_image
 end
