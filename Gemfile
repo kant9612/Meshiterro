@@ -66,3 +66,5 @@ gem 'devise'
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 # 画像リサイズ
 gem "refile-mini_magick"
+# １ページに表示する投稿数の数を指定
+gem 'kaminari', '~> 1.2.1'

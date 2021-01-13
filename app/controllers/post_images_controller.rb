@@ -12,7 +12,7 @@ class PostImagesController < ApplicationController
   end
 # 投稿された画像が一覧で表示されるように
   def index
-    @post_images = PostImage.all
+    @post_images = PostImage.page(params[:page]).reverse_order
   end
 
   def show
