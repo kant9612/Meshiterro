@@ -68,3 +68,7 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 # １ページに表示する投稿数の数を指定
 gem 'kaminari', '~> 1.2.1'
+# bootstrapを導入
+gem 'bootstrap', '~> 4.5'
+gem 'jquery-rails'
+gem 'font-awesome-sass', '~> 5.13'
